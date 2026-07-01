@@ -649,3 +649,31 @@ img {
     gap: 16px;
   }
 }
+
+
+
+
+
+
+/* Value cards responsive */
+@media (max-width: 768px) {
+  .value-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .value-card {
+    padding: 22px;
+    min-height: auto;
+  }
+
+  .value-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .value-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
