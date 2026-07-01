@@ -46,6 +46,7 @@ function App() {
     <div className="page-shell">
       <header className="topbar">
         <a className="brand" href="#home" aria-label="Hood Cuts home">
+          <link rel="icon" type="image/png" href="/favicon.png" />
           <img src="/images/logo.png" alt="Hood Cuts logo" className="brand-logo" />
           <span>Hood Cuts</span>
         </a>
